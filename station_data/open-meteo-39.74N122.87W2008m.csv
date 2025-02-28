@@ -1,0 +1,11 @@
+latitude,longitude,elevation,utc_offset_seconds,timezone,timezone_abbreviation
+39.736538,-122.870285,2008.0,-28800,America/Los_Angeles,GMT-8
+
+time,temperature_2m_max (°F),temperature_2m_min (°F),precipitation_hours (h),wind_speed_10m_max (mp/h),wind_gusts_10m_max (mp/h),et0_fao_evapotranspiration (inch)
+2025-02-26,46.1,33.3,0.0,9.6,21.3,0.127
+2025-02-27,45.2,35.3,0.0,11.9,25.1,0.125
+2025-02-28,54.4,35.2,0.0,13.9,21.7,0.104
+2025-03-01,47.4,29.1,0.0,6.1,7.4,0.083
+2025-03-02,31.0,18.2,18.0,6.4,13.9,0.030
+2025-03-03,31.2,19.1,9.0,4.2,4.7,0.043
+2025-03-04,34.1,22.7,3.0,3.9,4.0,0.042

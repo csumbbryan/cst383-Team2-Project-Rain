@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="longitude <= -121.03\nsquared_error = 421.8\nsamples = 280\nvalue = 32.41", fillcolor="#f6d2b8"] ;
+1 [label="elevation <= 1457.0\nsquared_error = 629.06\nsamples = 134\nvalue = 39.0", fillcolor="#f2c29f"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="longitude <= -121.81\nsquared_error = 195.47\nsamples = 45\nvalue = 28.99", fillcolor="#f7dbc6"] ;
+1 -> 2 ;
+3 [label="squared_error = 111.94\nsamples = 27\nvalue = 24.73", fillcolor="#fae5d6"] ;
+2 -> 3 ;
+4 [label="squared_error = 252.69\nsamples = 18\nvalue = 35.38", fillcolor="#f4cbad"] ;
+2 -> 4 ;
+5 [label="elevation <= 1714.0\nsquared_error = 771.91\nsamples = 89\nvalue = 44.07", fillcolor="#f0b58b"] ;
+1 -> 5 ;
+6 [label="squared_error = 982.07\nsamples = 24\nvalue = 65.17", fillcolor="#e58139"] ;
+5 -> 6 ;
+7 [label="squared_error = 469.18\nsamples = 65\nvalue = 36.28", fillcolor="#f4c8a9"] ;
+5 -> 7 ;
+8 [label="longitude <= -120.23\nsquared_error = 155.03\nsamples = 146\nvalue = 26.36", fillcolor="#f9e1d0"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="elevation <= 1777.5\nsquared_error = 151.58\nsamples = 122\nvalue = 28.36", fillcolor="#f8dcc8"] ;
+8 -> 9 ;
+10 [label="squared_error = 61.68\nsamples = 34\nvalue = 20.42", fillcolor="#fcf0e7"] ;
+9 -> 10 ;
+11 [label="squared_error = 152.58\nsamples = 88\nvalue = 31.42", fillcolor="#f6d4bc"] ;
+9 -> 11 ;
+12 [label="latitude <= 40.21\nsquared_error = 48.6\nsamples = 24\nvalue = 16.18", fillcolor="#fefaf7"] ;
+8 -> 12 ;
+13 [label="squared_error = 89.15\nsamples = 8\nvalue = 20.05", fillcolor="#fcf1e8"] ;
+12 -> 13 ;
+14 [label="squared_error = 17.07\nsamples = 16\nvalue = 14.24", fillcolor="#ffffff"] ;
+12 -> 14 ;
+}
